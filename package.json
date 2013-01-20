@@ -1,0 +1,49 @@
+{
+  "name": "h5bp",
+  "description": "HTML5 boilerplate (H5BP) inspired server config for node.js",
+  "version": "0.0.3",
+  "author": "Nick Baugh <niftylettuce@gmail.com>",
+  "contributors": [
+    {
+      "name": "Nick Baugh",
+      "email": "niftylettuce@gmail.com"
+    },
+    {
+      "name": "Sean Caetano Martin",
+      "email": "seancaetanomartin@gmail.com"
+    },
+    {
+      "name": "Nicolas Gryman",
+      "email": "ngryman@gmail.com"
+    },
+    {
+      "name": "Benjamin Tan",
+      "email": "demoneaux@gmail.com"
+    }
+  ],
+  "keywords": [
+    "h5bp",
+    "html5",
+    "boilerplate",
+    "framework"
+  ],
+  "main": "lib/h5bp",
+  "homepage": "https://github.com/niftylettuce/node-h5bp",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/niftylettuce/node-h5bp.git"
+  },
+  "engines": {
+    "node": "0.8.x",
+    "npm": "1.1.x"
+  },
+  "dependencies" : {
+    "express": "3.0.x",
+    "mocha": "1.3.2",
+    "chai": "1.2.0",
+    "supertest": "0.1.2"
+  },
+  "devDependencies": {
+    "connect": ""
+  }
+}
